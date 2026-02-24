@@ -5,9 +5,10 @@ import "./index.css";
 import { Navbar } from "./components/sections/Navbar";
 import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
+import { About } from "./components/sections/About";
 function App() {
   const [isLoaded, setIsLoaded] = React.useState(false);
-const [menuOpen, setMenuOpen] = React.useState(false);<R></R>
+  const [menuOpen, setMenuOpen] = React.useState(false);
   return (
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
@@ -19,7 +20,10 @@ const [menuOpen, setMenuOpen] = React.useState(false);<R></R>
 
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <Home></Home>
+        <Home>
+        </Home>
+          <About>
+        </About>
       </div>
     </>
   );
