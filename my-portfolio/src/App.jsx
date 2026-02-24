@@ -3,7 +3,7 @@ import './App.css';
 import { LoadingScreen } from "./components/LoadingScreen";
 import "./index.css";
 import { Navbar } from "./components/sections/Navbar";
-
+import { MobileMenu } from "./components/MobileMenu";
 function App() {
   const [isLoaded, setIsLoaded] = React.useState(false);
 const [menuOpen, setMenuOpen] = React.useState(false);
