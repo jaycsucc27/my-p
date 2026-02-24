@@ -7,7 +7,7 @@ import { MobileMenu } from "./components/MobileMenu";
 import { Home } from "./components/sections/Home";
 function App() {
   const [isLoaded, setIsLoaded] = React.useState(false);
-const [menuOpen, setMenuOpen] = React.useState(false);
+const [menuOpen, setMenuOpen] = React.useState(false);<R></R>
   return (
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
