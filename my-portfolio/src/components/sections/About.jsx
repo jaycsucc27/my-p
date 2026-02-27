@@ -9,17 +9,17 @@ export const About = () =>{
             className="min-h-screen flex items-center justify-center py-20"
         >
          <div className="max-w-3xl mx-auto px-4">
-          
+          <h2 className="text-3xl font-bold mb-8 bg-linear-to-r from-blue-500 
+            to-cyan-400 bg-clip-text text-transparent text-center">
+                About Me
+            </h2>
             <div className="p-6 rounded-xl border border-white/10 
                 hover:-translate-y-1 
                 hover:border-cyan-400
                 hover:shadow-[0_0_15px_rgba(34,211,238,0.7)]
                 hover:shadow-cyan-400/50
                 transition-all duration-300 ease-in-out">
-      <h2 className="text-3xl font-bold mb-8 bg-linear-to-r from-blue-500 
-            to-cyan-400 bg-clip-text text-transparent text-center">
-                About Me
-            </h2>
+      
                 <p className=" text-center leading-relaxed mb-6  text-gray-300  ">
                      Frontend Developer with a Computer Engineering background and hands-on experience in Angular,
                      React frameworks. I build responsive, scalable web applications with strong attention to performance,
@@ -91,13 +91,19 @@ export const About = () =>{
 
     </h3>
    
-    <ul className=" text-gray-300 space-y-2">
+    <ul className="list-disc text-gray-300 space-y-2">
     <li>
         <strong>Frontend Developer Intern </strong> at Jairosoft Inc. (June 2024 - August 2024)
        
     </li>
      <li>
-        Contri
+        Contributed to the development and maintenance of the company’s main web application using React, Angular, TypeScript, and TailwindCSS.
+     </li>
+     <li>
+        Built responsive and reusable UI components aligned with modern design standards.
+     </li>
+     <li>
+        
      </li>
 </ul>
     </div>
