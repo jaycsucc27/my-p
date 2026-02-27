@@ -1,6 +1,6 @@
 export const About = () =>{
 
-    const frontEndSkills = ["React", "Angular", "TailwindCSS", "TypeScript"];
+    const frontEndSkills = ["React", "Angular","CSS", "TailwindCSS", "TypeScript", "JavaScript"];
 
 
     return(
@@ -9,19 +9,21 @@ export const About = () =>{
             className="min-h-screen flex items-center justify-center py-20"
         >
          <div className="max-w-3xl mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 bg-linear-to-r from-blue-500 
-            to-cyan-400 bg-clip-text text-transparent text-center">
-                About Me
-            </h2>
+          
             <div className="p-6 rounded-xl border border-white/10 
                 hover:-translate-y-1 
                 hover:border-cyan-400
                 hover:shadow-[0_0_15px_rgba(34,211,238,0.7)]
                 hover:shadow-cyan-400/50
                 transition-all duration-300 ease-in-out">
-    
-                <p className="text-center text-gray-300 mb-6">
-                    Passionate entry-level frontend developer
+      <h2 className="text-3xl font-bold mb-8 bg-linear-to-r from-blue-500 
+            to-cyan-400 bg-clip-text text-transparent text-center">
+                About Me
+            </h2>
+                <p className=" text-center leading-relaxed mb-6  text-gray-300  ">
+                     Frontend Developer with a Computer Engineering background and hands-on experience in Angular,
+                     React frameworks. I build responsive, scalable web applications with strong attention to performance,
+                     clean architecture, and code quality. Passionate about continuous learning and delivering reliable user experiences.
                 </p>
                 <div className="grid grid-cols-1 gap-6">
                 <div className="rounded-xl p-6">
@@ -94,9 +96,9 @@ export const About = () =>{
         <strong>Frontend Developer Intern </strong> at Jairosoft Inc. (June 2024 - August 2024)
        
     </li>
-     <p>
-            assisted in developing and maintaining the company's main web application using React and TailwindCSS, collaborated with the design team to implement responsive UI components, and participated in code reviews to ensure code quality and best practices.
-        </p>
+     <li>
+        Contri
+     </li>
 </ul>
     </div>
     
