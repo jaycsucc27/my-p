@@ -10,12 +10,12 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
 
-          {/* Logo / Name */}
+         
           <a href="#home" className="font-mono text-xl font-bold text-white">
         
           </a>
 
-          {/* Mobile Menu Button */}
+     
           <div
             className="w-10 h-6 relative cursor-pointer z-40 md:hidden text-white"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -23,7 +23,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             &#9776;
           </div>
 
-          {/* Desktop Navigation */}
+      
           <div className="hidden md:flex items-center space-x-8">
 
             <a href="#home" className="text-gray-300 hover:text-white transition-colors">
@@ -42,7 +42,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Contact
             </a>
 
-            {/* Resume Dropdown */}
+      
             <div className="relative">
               <button
                 onClick={() => setResumeOpen(!resumeOpen)}
