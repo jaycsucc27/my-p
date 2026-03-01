@@ -77,7 +77,7 @@ export const Contact = () => {
                 </a>
             </div>
 
-            {/* LinkedIn */}
+          
             <div className="rounded-xl p-4 border border-white/5 hover:border-blue-400 transition">
               <h3 className="text-lg font-semibold text-blue-400 mb-2">
                 Mobile Number
