@@ -77,7 +77,7 @@ useEffect(() => {
           </div>
         </div>
 
-        {/* Education & Work Section */}
+       
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
 
           <div className="p-6 rounded-xl border border-white/10 
@@ -98,6 +98,15 @@ useEffect(() => {
               <li>
                 <strong>Relevant Coursework:</strong> Data Structures, Web Development, 
                 Software Engineering, Databases, Networks
+              </li>
+              <li>
+                <strong>Published Thesis:</strong> Design and Development of an Autonomous Fire Extinguishing Robot Leveraging Computer Vision for Early Fire Detection
+             <a className="text-sm text-gray-400 mt-1"
+             href="https://ieeexplore.ieee.org/document/11222284/"
+               target="_blank"
+                rel="noopener noreferrer">
+              DOI:10.1109/IDAP68205.2025.11222284
+             </a>
               </li>
             </ul>
           </div>

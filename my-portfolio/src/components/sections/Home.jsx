@@ -44,7 +44,13 @@ export const Home = () => {
             Hi! I'm Jay Genita
           </h1>
 
-          <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto"></p>
+          <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
+            I'm a passionate frontend developer specializing in modern web technologies. I create
+            sleek, responsive websites and web applications that provide seamless user
+            experiences. With a strong eye for design and a commitment to clean,
+            efficient code, I bring ideas to life on the web. Let's build
+            something amazing together!
+          </p>
 
           <div className="flex justify-center space-x-4">
             <a

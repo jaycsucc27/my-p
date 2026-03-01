@@ -73,7 +73,7 @@ export const Contact = () => {
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition"
               >
-                    github.com/yourusername
+                    github.com/jaycsucc27
                 </a>
             </div>
 
