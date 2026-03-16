@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import GradientText from "./gradient";
+import MagicRings from "./rings";
 
 export const Home = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -14,35 +16,61 @@ export const Home = () => {
 
   return (
     <>
-    
       <div
         className={`fixed top-5 left-8 z-50 transition-all duration-500
         ${scrolled ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"}
         `}
       >
-        <h2 className="text-xl font-bold bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
+        <GradientText
+          colors={["#5227FF", "#B19EEF"]}
+          animationSpeed={8}
+          showBorder={false}
+          className="custom-class"
+        >
           Jay Genita
-        </h2>
+        </GradientText>
       </div>
 
       <section
         id="home"
-        className="min-h-screen flex items-center justify-center relative"
+        className="min-h-screen flex items-center justify-center relative overflow-hidden"
       >
+
+        {/* Magic Rings Background */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div style={{ width: "100%", height: "100%", position: "relative" }}>
+            <MagicRings
+              color="#fc42ff"
+              colorTwo="#42fcff"
+              ringCount={6}
+              speed={1}
+              attenuation={10}
+              lineThickness={2}
+              baseRadius={0.35}
+              radiusStep={0.1}
+              scaleRate={0.1}
+              opacity={1}
+              blur={0}
+              noiseAmount={0.1}
+              rotation={0}
+              ringGap={1.5}
+              fadeIn={0.7}
+              fadeOut={0.5}
+              followMouse={false}
+              mouseInfluence={0.2}
+              hoverScale={1.2}
+              parallax={0.05}
+              clickBurst={false}
+            />
+          </div>
+        </div>
+
         <div className="text-center z-10 px-4">
-          <h1
-            className={`text-5xl md:text-7xl font-bold mb-6 
-            bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text 
-            text-transparent leading-tight
-            transition-all duration-500
-            ${
-              scrolled
-                ? "opacity-0 scale-75 -translate-y-10"
-                : "opacity-100 scale-100"
-            }`}
+          <GradientText
+            className={`text-5xl md:text-7xl font-bold mb-6`}
           >
             Hi! I'm Jay Genita
-          </h1>
+          </GradientText>
 
           <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
             I'm a passionate frontend developer specializing in modern web technologies. I create
